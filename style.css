@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.photo img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-left{
+    display: flex;
+}
+
+.header-text{
+    margin-left: 5px;
+}
+
+.footer{
+    padding: 8px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text .likes p:first-child{
+    margin-top: 10px;
+}
+
+.footer-text .likes p:nth-child(2){
+    margin-top: 10px;
+}
